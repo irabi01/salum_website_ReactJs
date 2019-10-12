@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
+:root{
+    --background-color-gray_one:#333;
+    --background-color-gray_two:#eee;
+    --background-color-gray_three:#ddd;
+    --fontMontserrat:'Montserrat', sans-serif;
+    --fontHandlee:'Handlee', cursive;
+    --buttonBackground: #333;
+    --primaryButton: #3399ff;
+    --buttonWhiteColor:#fff;
+    --whiteColor: #fff;
+    --blackColor: #000;
+    --paddingHome: 200px 0px;;
+    --paddingTopBottom: 100px 0px;
+    --positionSticky: 'sticky';
+    --topStick: 100px;
+    --fontSizeH1: 80px;
+    --fontSizeH2: 30px;
+    --fontSizeP: 15px;
+    --fontSizeH3: 18px;
+    --centerAlign: center;
+    --leftAlign: left;
+    --capitalize: capitalize;
+    --uppercase: uppercase;
+
+}
+
+.home{
+    padding: var(--paddingHome);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./Images/bg6.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // padding: 100px 0px;
+    .welcome_text{
+        font-family: var(--fontMontserrat);
+        text-align: var(--centerAlign);
+        h1{
+            font-size: var(--fontSizeH1);
+            color: var(--whiteColor);
+        }
+        .btn_about_us, .btn_contact_us{
+            text-transform: var(--capitalize);
+            margin-top: 50px;
+        }
+        .btn_about_us{
+            background: var(--primaryButton);
+            padding: 10px 30px;
+            color: var(--buttonWhiteColor);
+        }
+        .btn_contact_us{
+            background: var(--buttonBackground);
+            padding: 10px 30px;
+            color: var(--buttonWhiteColor);
+        }
+    }
+}
+
+.about{
+    padding: var(--paddingTopBottom);
+    background: var(--background-color-gray_two);
+    h1{
+        font-size: var(--fontSizeH1);
+        font-family: var(--fontMontserrat);
+        text-align: var(--centerAlign);
+    }
+    .about_content{
+        font-family: var(--fontMontserrat);
+        font-size: var(--fontSizeP);
+        text-align: var(--centerAlign);
+    }
+}
+
+
+.skills{
+    .row{
+        display: flex;
+        .col-md-6{
+            .heading_part{
+                padding: var(--paddingHome);
+                background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./Images/bg6.jpg');
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                h1{
+                    color: var(--whiteColor);
+                    text-align: var(--centerAlign);
+                    font-family: var(--fontMontserrat);
+                    font-size: var(--fontSizeH1);
+                }
+            }
+        }
+        .col-md-6{
+            .skills_part{
+                padding: 0px 50px;
+                h1{
+                    color: var(--blackColor);
+                    text-align: var(--centerAlign);
+                    font-family: var(--fontMontserrat);
+                    font-size: var(--fontSizeH2);
+                }
+                h2{
+                    color: var(--blackColor);
+                    text-align: var(--leftAlign);
+                    font-family: var(--fontMontserrat);
+                    font-size: var(--fontSizeH3);
+                }
+            }
+        }
+    }
+}
+
+.parallax_one{
+    padding: var(--paddingTopBottom);
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('./Images/bg6.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    h1{
+        color: var(--whiteColor);
+        text-align: var(--centerAlign);
+        font-family: var(--fontMontserrat);
+        font-size: var(--fontSizeH1);
+    }
+}
+
+.service{
+    padding: var(--paddingTopBottom);
+    background: var(--background-color-gray_two);
+    h1{
+        font-size: var(--fontSizeH1);
+        font-family: var(--fontMontserrat);
+        text-align: var(--centerAlign);
+    }
+    .service_line{
+        .row{
+            .col-md-6{
+                .service_container{
+                    ul{
+                        li{
+                            padding: 10px 0px;
+                            font-family: var(--fontMontserrat);
+                            font-size:var(--fontSizeH1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

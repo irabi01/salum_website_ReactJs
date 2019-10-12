@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router,Route, Switch} from 'react-router-dom'
 import './App.css';
+import './w3.css';
+import './Style.scss'
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import AboutPage from './pages/AboutPage';
@@ -21,9 +23,9 @@ class App extends Component {
           <Switch>
             <Route path="/" exact component={Home}/>
             <Route path="/about_us" component={AboutPage}/>
-            <Route path="/#services" component={Services}/>
-            <Route path="/#portfolio" component={Portfolio}/>
-            <Route path="/#contact" component={Contact}/>
+            <Route path="/services" component={Services}/>
+            <Route path="/portfolio" component={Portfolio}/>
+            <Route path="/contact" component={Contact}/>
             <Route component={Error}/>
           </Switch>
           <Footer/>

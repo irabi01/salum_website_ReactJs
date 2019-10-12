@@ -24,13 +24,13 @@ class Navigation extends Component {
                     <Link className="nav-link" to="/about_us">About</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="#services">Services</Link>
+                    <Link className="nav-link" to="/services">Services</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="#portfolios">Portfolio</Link>
+                    <Link className="nav-link" to="/portfolios">Portfolio</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="#contact">Contact</Link>
+                    <Link className="nav-link" to="/contact">Contact</Link>
                 </li>
                 
                 </ul>
