@@ -210,3 +210,15 @@
         }
     }
 }
+
+
+.footer_container{
+    padding: 20px 0px;
+    text-align: var(--centerAlign);
+    .copyright{
+        p{
+            font-family: var(--fontMontserrat);
+            font-size: var(--fontSizeP);
+        }
+    }
+}

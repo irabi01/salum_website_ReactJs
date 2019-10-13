@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import Services from './Services';
 import Portfolio from './Portfolio';
-import Contact from './Contact';
+// import Contact from './Contact';
 import ParallaxTop from './ParallaxTop';
 import Skills from './Skills';
 import ParallaxBottom from './ParallaxBottom';
@@ -42,7 +42,7 @@ export class Home extends Component {
           <Services/>
           <Portfolio />
           <ParallaxBottom lets_build="Let's start your project now"/>
-          <Contact/>
+          {/* <Contact/> */}
           </div>
     )
   }

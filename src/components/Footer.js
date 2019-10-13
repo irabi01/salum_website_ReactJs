@@ -10,7 +10,6 @@ export class Footer extends Component {
               <div className="address">
                 
               </div>
-              <hr/>
               <div className="copyright">
                 <p><i className="fa fa-copyright"></i> 2019. All rights reserved. Qera Tech Limited</p>
               </div>
