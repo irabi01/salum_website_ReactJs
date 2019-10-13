@@ -8,7 +8,7 @@ export class Portfolio extends Component {
         <h1>Workdone so far</h1>
         <div className="sportfolio_line"></div>
         <br/>
-          <div className="row no-gutters">
+          <div className="row">
             <div className="col-md-4">
              <div className="container_image">
              <img src={require('../Images/bg5.jpg')} className="img-fluid" alt=""/>
