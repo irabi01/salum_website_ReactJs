@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import VisionMission from '../components/VisionMission';
 
 export class AboutPage extends Component {
+    componentDidMount(){
+        const blogID = this.props.match.params.blogID;
+        window.scrollTo(0, 0)
+    }
   render() {
     return (
        <div>

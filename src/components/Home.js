@@ -15,6 +15,10 @@ export class Home extends Component {
       home_text:"Qela tech limited-- we base on quality and efficiency",
     }
   }
+  componentDidMount(){
+    const blogID = this.props.match.params.blogID;
+    window.scrollTo(0, 0)
+}
   render() {
     return (
         <div className="full_container">
