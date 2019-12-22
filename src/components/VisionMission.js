@@ -11,11 +11,11 @@ export class VisionMission extends Component {
                         <div className="row">
                             <div className="col-md-6">
                                 <h1>{this.props.vision}</h1>
-                                <p>Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500</p>
+                                <p>Our vision is to be a leading ICT and engineeringin Africa.</p>
                             </div>
                             <div className="col-md-6">
                                 <h1>{this.props.mission}</h1>
-                                <p>Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500</p>
+                                <p>Our mission is to provide our clients withbest and affordable ICT and engineering solutions.</p>
                             </div>
                         </div>
                     </div>

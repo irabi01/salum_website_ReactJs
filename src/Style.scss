@@ -11,7 +11,7 @@
     --buttonWhiteColor:#fff;
     --whiteColor: #fff;
     --blackColor: #000;
-    --paddingHome: 200px 0px;;
+    --paddingHome: 200px 0px;
     --paddingTopBottom: 100px 0px;
     --positionSticky: 'sticky';
     --topStick: 100px;
@@ -31,17 +31,24 @@
 .home{
     padding: var(--paddingHome);
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./Images/bg6.jpg');
+    // background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./Images/bg1.jpeg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    // padding: 100px 0px;
+    padding: 300px 0px;
     .welcome_text{
         font-family: var(--fontMontserrat);
         text-align: var(--centerAlign);
         h1{
             font-size: var(--fontSizeH1);
             color: var(--whiteColor);
+            font-family: var(--fontHandlee);
+        }
+        h2{
+            font-size: 30;
+            color: var(--whiteColor);
+            font-family: var(--fontMontserrat);
         }
         .btn_about_us, .btn_contact_us{
             text-transform: var(--capitalize);
@@ -62,7 +69,12 @@
 
 .about{
     padding: var(--paddingTopBottom);
-    background: var(--background-color-gray_two);
+    // background: var(--background-color-gray_two);
+    background-image:url('./Images/bg1.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     h1{
         font-size: var(--fontSizeH1);
         font-family: var(--fontMontserrat);
@@ -72,6 +84,11 @@
         font-family: var(--fontMontserrat);
         font-size: var(--fontSizeP);
         text-align: var(--centerAlign);
+        .go_to_about{
+            background: var(--buttonBackground);
+            padding: 10px 30px;
+            color: var(--buttonWhiteColor);
+        }
     }
 }
 
@@ -138,18 +155,23 @@
         font-family: var(--fontMontserrat);
         text-align: var(--centerAlign);
     }
+    h2{
+        font-size: var(--fontSizeH2);
+        font-family: var(--fontMontserrat);
+        text-align: var(--centerAlign);
+    }
     .service_line{
         .row{
-            .col-md-6{
+            .col-md-3{
                 .service_container{
                     background: var(--whiteColor);
-                    ul{
-                        line-height: 200px;
-                        li{
-                            padding: 10px 0px;
-                            font-family: var(--fontMontserrat);
-                            font-size:var(--fontSizeH1);
-                        }
+                    text-align: var(--centerAlign);
+                    font-family: var(--fontMontserrat);
+                    i{
+                        font-size: 80px;
+                    }
+                    p{
+                        font-size: 18px;
                     }
                 }
             }
@@ -163,13 +185,14 @@
     h1{
         font-family: var(--fontMontserrat);
         text-align: var(--centerAlign);
-        font-size: var(--fontSizeH1);
+        font-size: var(--fontSizeH2);
         color: var(--blackColor);
     }
     .row{
         .col-md-4{
             .container_image{
                 margin-bottom: 10px;
+                border-radius: var(--borderRadiusOne);
                 img{
                     border-radius:var(--borderRadiusOne);
                 }
@@ -212,6 +235,66 @@
 }
 
 
+
+
+/*==================================== about_us_page =====================================*/
+.about_us_page{
+    padding: 200px 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('./Images/bg1.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    h1{
+        color: var(--whiteColor);
+        text-align: var(--centerAlign);
+        font-family: var(--fontMontserrat);
+        font-size: 70px;
+    }
+    p{
+        text-align: left;
+        font-family: var(--fontMontserrat);
+        color: var(--whiteColor);
+    }
+    .w3-card{
+        border: none;
+        margin-top: 20px;
+        background-color: var(--whiteColor);
+        .general_info_1{
+            padding: 20px 10px;
+            font-family: var(--fontMontserrat);
+            h1{
+                font-size: 30px;
+                text-align: left;
+                color: var(--blackColor);
+            }
+            p{
+                text-align: left;
+                font-family: var(--fontMontserrat);
+                color: var(--blackColor);
+            }
+        }
+    }
+  }
+
+//======================   vison_mission_container ==========
+.vison_mission_container{
+    padding: 100px 0px;
+    background-color: var(--background-color-gray_two);
+    h1{
+        color: var(--blackColor);
+        text-align: var(--centerAlign);
+        font-family: var(--fontMontserrat);
+        font-size: var(--fontSizeH2);
+    }
+    p{
+        text-align: var(--centerAlign);
+        font-family: var(--fontMontserrat);
+    }
+}
+
+
+//========================   footer section ===============
 .footer_container{
     padding: 20px 0px;
     text-align: var(--centerAlign);

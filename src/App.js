@@ -6,9 +6,9 @@ import './Style.scss'
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import AboutPage from './pages/AboutPage';
-import Services from './components/Services';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+// import ServicesPage from './pages/ServicesPage';
+// import PortfolioPage from './pages/PortfolioPage';
+// import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
 
 
@@ -19,13 +19,13 @@ class App extends Component {
 
       <Router>
         <div>
-         <Navigation logo="Qera Tech Limited"/>
+         <Navigation logo="Qela Tech Limited"/>
           <Switch>
             <Route path="/" exact component={Home}/>
-            <Route path="/about_us" component={AboutPage}/>
-            <Route path="/services" component={Services}/>
-            <Route path="/portfolio" component={Portfolio}/>
-            <Route path="/contact" component={Contact}/>
+            <Route path="/about" component={AboutPage}/>
+            {/* <Route path="/services" component={ServicesPage}/>
+            <Route path="/portfolio" component={PortfolioPage}/>
+            <Route path="/contact" component={ContactPage}/> */}
             <Route component={Error}/>
           </Switch>
           <Footer/>

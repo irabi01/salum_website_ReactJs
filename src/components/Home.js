@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
+import Typed from 'react-typed';
 import Services from './Services';
 import Portfolio from './Portfolio';
-// import Contact from './Contact';
 import ParallaxTop from './ParallaxTop';
 import Skills from './Skills';
 import ParallaxBottom from './ParallaxBottom';
@@ -12,7 +12,7 @@ export class Home extends Component {
   constructor(props){
     super(props)
     this.state = {
-      home_text:"Build application cheaper",
+      home_text:"Qela tech limited-- we base on quality and efficiency",
     }
   }
   render() {
@@ -21,16 +21,36 @@ export class Home extends Component {
         <div className="home" id="home">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-7">
+                    <div className="col-md-12">
                         <div className="welcome_text">
-                            <h1>{this.state.home_text}</h1>
-                              <Link to="/about_us" className="btn btn-sm btn_about_us mr-2">about us</Link>
-                              <Link to="/contact_us" className="btn btn-sm btn_contact_us">contact us</Link>
-                        </div>
-                    </div>
-                    <div className="col-md-5">
-                        <div className="image_container">
-                          <img src={require('../Images/img2.png')} className="img-fluid" alt=""/>
+                          <h1>{this.state.home_text}</h1>
+                            <h2>
+                            <Typed
+                                loop
+                                backSpeed={20}
+                                strings={
+                                  [
+                                  "Our Values",
+                                  "1) Integrity",
+                                  "2) Professionalism",
+                                  "3) Innovation",
+                                  "4) Commitment",
+                                  "5) Team work"
+                                ]
+                              }
+                                typeSpeed={200}
+                                smartBackspace
+                                shuffle={false}
+                                backDelay={1}
+                                fadeOut={false}
+                                fadeOutDelay={100}
+                                loopCount={0}
+                                showCursor
+                                cursorChar="|"
+                            />
+                            </h2>
+                              <Link to="/about" className="btn btn-sm btn_about_us mr-2">about us</Link>
+                              {/* <Link to="/contact" className="btn btn-sm btn_contact_us">contact us</Link> */}
                         </div>
                     </div>
                 </div>

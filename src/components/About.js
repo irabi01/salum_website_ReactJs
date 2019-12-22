@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 
 export class About extends Component {
   render() {
@@ -10,7 +11,9 @@ export class About extends Component {
           <div className="row">
             <div className="col-md-8 offset-md-2">
               <div className="about_content">
-                <p>Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard Demo-Text seit 1500, als ein unbekannter Schriftsteller eine Hand voll Wörter nahm und diese durcheinander warf um ein Musterbuch zu erstellen. Es hat nicht nur 5 Jahrhunderte überlebt, sondern auch in Spruch in die elektronische Schriftbearbeitung geschafft (bemerke, nahezu unverändert). Bekannt wurde es 1960, mit dem erscheinen von "Letraset", welches Passagen von Lorem Ipsum enhielt, so wie Desktop Software wie "Aldus PageMaker" - ebenfalls mit Lorem Ipsum.</p>
+                <p>Qela Technologies provides ICT and engineering services to small, medium and large organizations for both private and public services.</p>
+                <p>Since its inception in 2017, our company has grown and become a well-recognized provider of server infrastructure solution , database system, network infrastructure solution, advanced system and networking security solutions, physical security systems, computer systems, hardware and software sales and providing best support to help our clients achieve their business objectives.</p>
+                <Link to="/about" className="go_to_about">More about us</Link>
               </div>
             </div>
           </div>
