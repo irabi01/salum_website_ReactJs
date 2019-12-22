@@ -305,3 +305,28 @@
         }
     }
 }
+
+
+//========================= error_page ======================
+.error_page{
+    padding: 300px 0px;
+    .content{
+        text-align: var(--centerAlign);
+        h1{
+            font-size: var(--fontSizeH1);
+            font-family: var(--fontHandlee);
+        }
+        p{
+            font-family: var(--fontMontserrat);
+            font-size: var(--fontSizeP);
+        }
+        .back_home{
+            background-color: var(--primaryButton);
+            color: var(--whiteColor);
+            font-family: var(--fontMontserrat);
+            padding: 10px 30px;
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+    }
+}

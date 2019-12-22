@@ -10,6 +10,7 @@ import AboutPage from './pages/AboutPage';
 // import PortfolioPage from './pages/PortfolioPage';
 // import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
+import ErrorPage from './pages/ErrorPage';
 
 
 
@@ -26,7 +27,7 @@ class App extends Component {
             {/* <Route path="/services" component={ServicesPage}/>
             <Route path="/portfolio" component={PortfolioPage}/>
             <Route path="/contact" component={ContactPage}/> */}
-            <Route component={Error}/>
+            <Route component={ErrorPage}/>
           </Switch>
           <Footer/>
         </div>

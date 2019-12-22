@@ -3,7 +3,6 @@ import VisionMission from '../components/VisionMission';
 
 export class AboutPage extends Component {
     componentDidMount(){
-        const blogID = this.props.match.params.blogID;
         window.scrollTo(0, 0)
     }
   render() {
@@ -33,15 +32,6 @@ export class AboutPage extends Component {
                     </div>
                 </div>
             </div>
-            {/* <div className="imageSection">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <img src={require('../Images/img6.png')} className="img-fluid" alt=""/>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
             <VisionMission vision="Vision" mission="Mission"/>
        </div> 
       
