@@ -7,6 +7,8 @@
     --fontMontserrat:'Montserrat', sans-serif;
     --fontHandlee:'Handlee', cursive;
     --buttonBackground: #333;
+    --mainColor: #1A237E;
+    --secondaryColor: #0D47A1;
     --primaryButton: #3399ff;
     --buttonWhiteColor:#fff;
     --whiteColor: #fff;
@@ -30,8 +32,7 @@
 
 .home{
     padding: var(--paddingHome);
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./Images/bg6.jpg');
-    // background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./Images/bg1.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./Images/bg14.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,13 +69,7 @@
 }
 
 .about{
-    padding: var(--paddingTopBottom);
-    // background: var(--background-color-gray_two);
-    background-image:url('./Images/bg1.jpeg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    padding: 100px 0px;
     h1{
         font-size: var(--fontSizeH1);
         font-family: var(--fontMontserrat);
@@ -294,17 +289,73 @@
 }
 
 
-//========================   footer section ===============
-.footer_container{
-    padding: 20px 0px;
-    text-align: var(--centerAlign);
-    .copyright{
-        p{
-            font-family: var(--fontMontserrat);
-            font-size: var(--fontSizeP);
+
+//====================== service page =====================
+.service_page{
+    padding: 300px 0px;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./Images/bg8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .content{
+        h1{
+            color: var(--whiteColor);
+            font-size: var(--fontSizeH1);
+            text-transform: capitalize;
         }
     }
 }
+.service_quote{
+    background-color: var(--mainColor);
+    padding: 100px 0px;
+    .content{
+        h2{
+            color: var(--whiteColor);
+            font-size: 30px;
+            text-align: var(--centerAlign);
+        }
+    }
+}
+
+.service_page_one{
+    padding: 100px 0px;
+    h1{
+        font-size: var(--fontSizeH1);
+        font-family: var(--fontMontserrat);
+        text-align: var(--centerAlign);
+        margin-bottom: 20px;
+    }
+    // .horizontal_line{
+    //     width: 10%;
+    //     height: 2px;
+    //     background-image: linear-gradient(to right, var(--mainColor), var(--secondaryColor));
+    //     margin: 0px auto;
+    // }
+    .row{
+        margin-bottom: 10px;
+        .content{
+            background-color: #eee;
+            padding: 20px 0px;
+            text-align: var(--centerAlign);
+            i{
+                font-size: 50px;
+            }
+            h2{
+                font-size: var(--fontSizeH3);
+                text-transform: capitalize;
+                // font-weight: bold;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
 
 
 //========================= error_page ======================
@@ -330,3 +381,18 @@
         }
     }
 }
+
+
+
+//========================   footer section ===============
+.footer_container{
+    padding: 20px 0px;
+    text-align: var(--centerAlign);
+    .copyright{
+        p{
+            font-family: var(--fontMontserrat);
+            font-size: var(--fontSizeP);
+        }
+    }
+}
+

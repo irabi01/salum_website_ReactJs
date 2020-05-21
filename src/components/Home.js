@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import Typed from 'react-typed';
 import Services from './Services';
 import Portfolio from './Portfolio';
@@ -16,7 +16,6 @@ export class Home extends Component {
     }
   }
   componentDidMount(){
-    const blogID = this.props.match.params.blogID;
     window.scrollTo(0, 0)
 }
   render() {
@@ -53,7 +52,7 @@ export class Home extends Component {
                                 cursorChar="|"
                             />
                             </h2>
-                              <Link to="/about" className="btn btn-sm btn_about_us mr-2">about us</Link>
+                              {/* <Link to="/about" className="btn btn-sm btn_about_us mr-2">about us</Link> */}
                               {/* <Link to="/contact" className="btn btn-sm btn_contact_us">contact us</Link> */}
                         </div>
                     </div>
@@ -63,8 +62,12 @@ export class Home extends Component {
           <About/>
           <Skills our_skills="Our Skills"/>
           <ParallaxTop make_text="Make your software more better"/>
-          <Services/>
-          <Portfolio />
+          <section id="services">
+            <Services/>
+          </section>
+          <section id="portfolio">
+            <Portfolio />
+          </section>
           <ParallaxBottom lets_build="Let's start your project now"/>
           {/* <Contact/> */}
           </div>
