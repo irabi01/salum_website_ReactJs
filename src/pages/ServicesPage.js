@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import im1 from '../Images/bg10.jpg'
 import img2 from '../Images/bg17.jpg'
+import img3 from '../Images/bg19.jpg'
 
 class ServicesPage extends Component {
     render() {
@@ -226,6 +227,25 @@ class ServicesPage extends Component {
                                         <li>Network devices replacement and configuration optimization</li>
                                         <li>Server and storage capacity and performance maintenance</li>
                                     </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="service_domain">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-5">
+                                <div className="content_img">
+                                    <img src={img3} alt="server" className="img-fluid"/>
+                                </div>
+                            </div>
+                            <div className="col-md-7">
+                                <div className="content_desc w3-card">
+                                    <h1>Domain Names & Web Hosting</h1>
+                                    <p>Domain help customers drive directly to your website, qela technologies offer top level domain registration (.com, .net, .org, .biz, .info) including country code top level domain (.co.tz, ac.tz, go.tz, or.tz, net.tz, tv.tz).</p>
+                                    <p>Web Hosting is about renting space on webserver, this space usually carry the files of your website, we have several and affordable web hosting packages depending upon your requirements. Hosting website on our dedicated webserver ensure you hassle free 24 hours availability and give you complete control over your website</p>
                                 </div>
                             </div>
                         </div>
