@@ -252,6 +252,81 @@ class ServicesPage extends Component {
                     </div>
                 </div>
 
+                <div className="service_webdev">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-12">
+                                <div className="content">
+                                    <h2>Qela provides professional website design, development and maintenance services, our team of web designer and developers accomplish various website projects like multifunctional web portals. Qela has large pool of resources and field required business and technical expertise to develop website of any complexity. We provide complete front-end and back-end development based on the latest technologies and industry market.</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="service_quotation_bottom">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-12">
+                                <div className="content">
+                                    <h2>Qela offer database development service for new or existing systems, we develop custom database based on the client needs. We also make sure that data arrangement, and security is priority to make our client satisfactory.</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="service_supply">
+                    {/* <div className="container"> */}
+                        <div className="row">
+                            <div className="col-md-5">
+                                <div className="content_img">
+                                    <h1>We supply different Hardware & Software like</h1>
+                                </div>
+                            </div>
+                            <div className="col-md-7">
+                                <div className="content_desc w3-card">
+                                    <h1>We supply different Hardware & Software like</h1>
+                                    <ul>
+                                        <li>
+                                        Computers [Servers, Desktop Computers, Notebook Computers, Tablet & Tablet PCs, Workstations].
+                                        </li>
+                                        <li>
+                                        Computer Components [RAM, Hard disk drive, Processors, Motherboard, power supply, computer case, graphic card].
+                                        </li>
+                                        <li>
+                                        Computer Accessories [USB flash drive, External Hard drive, Keyboard, Mice, UPS, HDMI cable, Speaker, Rack Moun􀆟ng Equipment, Power Adapters, Etc.]
+                                        </li>
+                                        <li>
+                                        Printers, Scanners & Photocopier [Laser Printers, Inkjet & Photo Printers, Ink & Toner Cartridges etc.]
+                                        </li>
+                                        <li>
+                                        Network device [Switches, Modems, Routers, Wireless Access Point, PBX/Multiuser Telephony Systems, Communication Boards, and NIC.]
+                                        </li>
+                                        <li>
+                                        Cables supplies [Electrical cables, Network Cables, USB Cables & Hubs, and Parallel & Serial Cables etc.]
+                                        </li>
+                                        <li>
+                                        Telephony [Analogue Phones & Accessories, IP Phones, IP Telephony Accessories, Video Conferencing, etc.]
+                                        </li>
+                                        <li>
+                                        Electronics supplies [CCTV Cameras, NVR & DVR, Access Control & Time attendance system, Smoke Detectors, Intruder Alarm System etc.]
+                                        </li>
+                                        <li>
+                                        Electrical supplies[Air Conditional, Electrical fence wire, Generators, Solar panels, Batteries Pack, Distribu􀆟on Board, Circuit Breakers, etc.]
+                                        </li>
+                                        <li>
+                                        Office Equipment & Supplies [Paper Shredders & Accessories, Typewriters/Word Processors, Office Supplies etc.]
+                                        </li>
+                                        <li>
+                                        Software Supplies [Operating Systems, MS Office, Accounting Package, HR & Payroll software, designing software, Antivirus & Internet security, etc.]
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    {/* </div> */}
+                </div>
+
 
 
 
