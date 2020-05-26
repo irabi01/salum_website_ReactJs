@@ -10,7 +10,7 @@ export class Footer extends Component {
               <div className="address">
                 <h1>Contact us</h1>
                 <p>Email: info@qelatechnologies.com</p>
-                <p>Call: +255 758 200200</p>
+                <p>Call: +255 652 578406</p>
               </div>
             </div>
             <div className="col-md-4">

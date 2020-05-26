@@ -1,40 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 
-/* 1. navigation style */
-.navigation{
-  background: #eee;
-  font-family: 'Montserrat', sans-serif;
-}
-.navigation .navbar-brand{
-  color: #000;
-  font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
-}
-.navigation ul li{
-  text-align: center;
-}
-.navigation ul li:hover{
-  background: #3399ff;
-}
-.navigation ul li .nav-link{
-  color: #000;
-  font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
-}
-.navigation ul li .nav-link:hover{
-  color: #fff;
-}
-#cpBtn{
-  padding: 2px 5px;
-}
-#cpBtn > div{
-  width: 40px;
-  height: 4px;
-  background: #333;
-  margin: 3px 0px;
-  border-radius: 4px;
-}
 
 
 
