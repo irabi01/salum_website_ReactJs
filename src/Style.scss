@@ -27,6 +27,7 @@
     --uppercase: uppercase;
     --borderRadiusOne: 10px;
     --borderRadiusTwo: 5px;
+    --footerColor: #283593;
 
 }
 
@@ -70,10 +71,12 @@
 
 .about{
     padding: 100px 0px;
+    background-color: var(--mainColor);
     h1{
         font-size: var(--fontSizeH1);
         font-family: var(--fontMontserrat);
         text-align: var(--centerAlign);
+        color: var(--whiteColor);
     }
     .about_content{
         font-family: var(--fontMontserrat);
@@ -132,8 +135,8 @@
     }
 }
 
+
 .parallax_one{
-    // padding: var(--paddingTopBottom);
     padding: 200px 0px;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./Images/bg13.jpg');
     background-attachment: fixed;
@@ -147,6 +150,7 @@
         font-size: var(--fontSizeH1);
     }
 }
+
 
 .service{
     padding: var(--paddingTopBottom);
@@ -556,9 +560,37 @@
 
 
 
+//========================== contact page =======================
+.contact_container{
+        padding: 200px 0px;
+        background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./Images/bg19.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        h1{
+            color: var(--whiteColor);
+            font-family: var(--fontMontserrat);
+            text-align: var(--centerAlign);
+            font-size: 100px;
+        }
+}
 
-
-
+.contact_section_one{
+    padding: 100px 0px;
+    .content{
+        h1{
+            color: var(--blackColor);
+            font-family: var(--fontMontserrat);
+            text-align: var(--centerAlign);
+            font-size: 30px;
+            font-weight: bold;
+        }
+        address{
+            text-align: var(--centerAlign);
+        }
+    }
+}
 
 
 
@@ -600,12 +632,31 @@
 
 //========================   footer section ===============
 .footer_container{
+    background-color: var(--footerColor);
     padding: 20px 0px;
     text-align: var(--centerAlign);
+    .address{
+        h1{
+            color: var(--whiteColor);
+            font-family: var(--fontMontserrat);
+        }
+        p{
+            font-family: var(--fontMontserrat);
+            font-size: var(--fontSizeP);
+            color: var(--whiteColor);
+            a{
+                font-family: var(--fontMontserrat);
+                font-size: var(--fontSizeP);
+                color: var(--whiteColor);
+                text-decoration: none;
+            }
+        }
+    }
     .copyright{
         p{
             font-family: var(--fontMontserrat);
             font-size: var(--fontSizeP);
+            color: var(--whiteColor);
         }
     }
 }

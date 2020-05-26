@@ -4,6 +4,9 @@ import img2 from '../Images/bg17.jpg'
 import img3 from '../Images/bg19.jpg'
 
 class ServicesPage extends Component {
+    componentDidMount(){
+        window.scrollTo(0, 0)
+        }
     render() {
         return (
             <div>
