@@ -119,7 +119,7 @@ class ServicesPage extends Component {
                             </div>
                         </div>
 
-                        <div className="row">
+                        {/* <div className="row">
                             <div className="col-md-3">
                                 <div className="content">
                                     <i className="fa fa-database"></i>
@@ -144,7 +144,7 @@ class ServicesPage extends Component {
                                     <h2>wed design & development</h2>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
 
 
