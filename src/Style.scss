@@ -79,10 +79,15 @@
         font-family: var(--fontMontserrat);
         font-size: var(--fontSizeP);
         text-align: var(--centerAlign);
-        .go_to_about{
-            background: var(--buttonBackground);
-            padding: 10px 30px;
-            color: var(--buttonWhiteColor);
+        .gotohomeDiv{
+            padding: 50px;
+            .go_to_about{
+                background: var(--mainColor);
+                padding: 10px 30px;
+                color: var(--buttonWhiteColor);
+                text-decoration: none;
+                border-radius: 5px;
+            }
         }
     }
 }
@@ -94,7 +99,7 @@
         .col-md-6{
             .heading_part{
                 padding: var(--paddingHome);
-                background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./Images/bg6.jpg');
+                background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./Images/bg1.jpg');
                 background-attachment: fixed;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -128,8 +133,9 @@
 }
 
 .parallax_one{
-    padding: var(--paddingTopBottom);
-    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('./Images/bg6.jpg');
+    // padding: var(--paddingTopBottom);
+    padding: 200px 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./Images/bg13.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;

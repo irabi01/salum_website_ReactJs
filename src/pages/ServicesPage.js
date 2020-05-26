@@ -294,7 +294,7 @@ class ServicesPage extends Component {
                                         Computer Components [RAM, Hard disk drive, Processors, Motherboard, power supply, computer case, graphic card].
                                         </li>
                                         <li>
-                                        Computer Accessories [USB flash drive, External Hard drive, Keyboard, Mice, UPS, HDMI cable, Speaker, Rack Moun􀆟ng Equipment, Power Adapters, Etc.]
+                                        Computer Accessories [USB flash drive, External Hard drive, Keyboard, Mice, UPS, HDMI cable, Speaker, Rack Mounting Equipment, Power Adapters, Etc.]
                                         </li>
                                         <li>
                                         Printers, Scanners & Photocopier [Laser Printers, Inkjet & Photo Printers, Ink & Toner Cartridges etc.]
@@ -312,7 +312,7 @@ class ServicesPage extends Component {
                                         Electronics supplies [CCTV Cameras, NVR & DVR, Access Control & Time attendance system, Smoke Detectors, Intruder Alarm System etc.]
                                         </li>
                                         <li>
-                                        Electrical supplies[Air Conditional, Electrical fence wire, Generators, Solar panels, Batteries Pack, Distribu􀆟on Board, Circuit Breakers, etc.]
+                                        Electrical supplies[Air Conditional, Electrical fence wire, Generators, Solar panels, Batteries Pack, Distribution Board, Circuit Breakers, etc.]
                                         </li>
                                         <li>
                                         Office Equipment & Supplies [Paper Shredders & Accessories, Typewriters/Word Processors, Office Supplies etc.]
