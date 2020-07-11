@@ -29,7 +29,7 @@ class Skills extends Component {
                   </div>
                   <h2>Web Design</h2>
                   <div className="progress">
-                    <div className="progress-bar progress-bar-striped bg-warning design progress-bar-animated" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style={{width:'98%'}}>98%</div>
+                    <div className="progress-bar progress-bar-striped bg-warning design progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={{width:'100%'}}>100%</div>
                   </div>
                   <h2>Web development</h2>
                   <div className="progress">

@@ -17,21 +17,21 @@ class Navigation extends Component {
                 <div className="col-md-10 offset-md-1 col-sm-12">
                 <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
-                <li className="nav-item active">
-                    <NavLink exact={true} activeClassName='is-active' className="nav-link" to="/">Home</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink activeClassName='is-active' className="nav-link" to="/about/">About</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink activeClassName='is-active' className="nav-link" to="/services/">Services</NavLink >
-                </li>
-                <li className="nav-item">
-                    <NavLink activeClassName='is-active' className="nav-link" to="/portfolio/">Portfolio</NavLink >
-                </li>
-                <li className="nav-item">
-                    <NavLink activeClassName='is-active' className="nav-link" to="/contact/">Contact</NavLink >
-                </li>
+                  <li className="nav-item active">
+                      <NavLink exact={true} activeClassName='is-active' className="nav-link" to="/">Home</NavLink>
+                  </li>
+                  <li className="nav-item">
+                      <NavLink activeClassName='is-active' className="nav-link" to="/about/">About</NavLink>
+                  </li>
+                  <li className="nav-item">
+                      <NavLink activeClassName='is-active' className="nav-link" to="/services/">Services</NavLink >
+                  </li>
+                  <li className="nav-item">
+                      <NavLink activeClassName='is-active' className="nav-link" to="/portfolio/">Portfolio</NavLink >
+                  </li>
+                  <li className="nav-item">
+                      <NavLink activeClassName='is-active' className="nav-link" to="/contact/">Contact</NavLink >
+                  </li>
 
                 </ul>
             </div>

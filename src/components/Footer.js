@@ -32,7 +32,7 @@ export class Footer extends Component {
           <div className="row">
             <div className="col-md-6 offset-md-3">
               <div className="copyright">
-                <p>Copyright <i className="fa fa-copyright"></i> 2019. All rights reserved. Qela Technologies Limited</p>
+                <p>Copyright <i className="fa fa-copyright"></i> {(new Date().getFullYear())}. All rights reserved. Qela Technologies Limited</p>
               </div>
             </div>
           </div>
