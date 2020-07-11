@@ -137,6 +137,7 @@
 
 
 .skills{
+    padding: 100px 20px;
     .row{
         display: flex;
         .col-md-6{
@@ -285,7 +286,7 @@
 /*==================================== about_us_page =====================================*/
 .about_us_page{
     padding: 200px 0px;
-    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('./Images/bg1.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./Images/bg8.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,26 +302,26 @@
         font-family: var(--fontMontserrat);
         color: var(--whiteColor);
     }
-    .w3-card{
-        border: none;
-        margin-top: 20px;
-        background-color: var(--whiteColor);
-        .general_info_1{
-            padding: 20px 10px;
+  }
+  .about_us_section_one{
+    padding: 100px 0px;
+    .general_info_1{
+        padding: 20px 10px;
+        font-family: var(--fontMontserrat);
+        h1{
+            font-size: 50px;
+            text-align: center;
+            color: var(--blackColor);
             font-family: var(--fontMontserrat);
-            h1{
-                font-size: 30px;
-                text-align: left;
-                color: var(--blackColor);
-            }
-            p{
-                text-align: left;
-                font-family: var(--fontMontserrat);
-                color: var(--blackColor);
-            }
+            margin-bottom: 20px;
+        }
+        p{
+            text-align: left;
+            font-family: var(--fontMontserrat);
+            color: var(--blackColor);
         }
     }
-  }
+}
 
 //======================   vison_mission_container ==========
 .vison_mission_container{

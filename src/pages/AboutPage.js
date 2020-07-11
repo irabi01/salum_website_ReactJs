@@ -20,8 +20,12 @@ export class AboutPage extends Component {
                             <img src={require('../Images/img6.png')} className="img-fluid" alt=""/>
                         </div>
                     </div>
-                    <div className="row w3-card">
-                        <div className="col-md-8 offset-md-2">
+                </div>
+            </div>
+            <div className="about_us_section_one">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 col-lg-12">
                             <div className="general_info_1">
                                 <h1>General Information</h1>
                                 <p>Qela Technologies provides ICT and engineering services to small, medium and large organizations for both private and public services.</p>

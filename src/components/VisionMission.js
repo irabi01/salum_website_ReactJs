@@ -6,7 +6,7 @@ export class VisionMission extends Component {
       <div className="vison_mission_container">
         <div className="container">
             <div className="row">
-                <div className="col-md-8 offset-md-2">
+                <div className="col-md-12">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6">
